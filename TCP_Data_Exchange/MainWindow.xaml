@@ -1,0 +1,13 @@
+﻿<Window x:Class="TCP_Data_Exchange.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TCP_Data_Exchange"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Margin="40, 40" Content="Im Host" Height="50" VerticalAlignment="Top" Click="Host_Click"/>
+        <Button Margin="40" Content="Send Message" Height="50" Click="Send_Click"/>
+    </Grid>
+</Window>
